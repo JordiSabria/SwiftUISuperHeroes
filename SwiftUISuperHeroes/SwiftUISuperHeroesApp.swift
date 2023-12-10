@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUISuperHeroesApp: App {
+    @StateObject var vm = SuperHeroesViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vm)
         }
     }
 }

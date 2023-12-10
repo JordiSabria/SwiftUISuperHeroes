@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var vm: SuperHeroesViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            ForEach (vm.superHeroes) { superHero in
+                Text(superHero.descripcion)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+       .environmentObject(SuperHeroesViewModel())
+        
 }
