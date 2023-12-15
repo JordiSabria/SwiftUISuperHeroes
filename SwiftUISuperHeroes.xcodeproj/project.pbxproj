@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2CD6462B2B7F7E008F14A6 /* InfoLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CD6452B2B7F7E008F14A6 /* InfoLineView.swift */; };
 		AB476D6E2B26264F00A5BAFC /* SwiftUISuperHeroesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D6D2B26264F00A5BAFC /* SwiftUISuperHeroesApp.swift */; };
 		AB476D702B26264F00A5BAFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D6F2B26264F00A5BAFC /* ContentView.swift */; };
 		AB476D722B26265000A5BAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB476D712B26265000A5BAFC /* Assets.xcassets */; };
@@ -16,9 +17,12 @@
 		AB476D862B26276500A5BAFC /* Poderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D852B26276500A5BAFC /* Poderes.swift */; };
 		AB476D882B26277D00A5BAFC /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D872B26277D00A5BAFC /* DataInteractor.swift */; };
 		AB476D8A2B26279600A5BAFC /* SuperHeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D892B26279600A5BAFC /* SuperHeroesViewModel.swift */; };
+		AB476D8C2B27797200A5BAFC /* SuperHeroeCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D8B2B27797200A5BAFC /* SuperHeroeCoverView.swift */; };
+		AB476D8E2B27798600A5BAFC /* SuperHeroeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB476D8D2B27798600A5BAFC /* SuperHeroeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB2CD6452B2B7F7E008F14A6 /* InfoLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLineView.swift; sourceTree = "<group>"; };
 		AB476D6A2B26264F00A5BAFC /* SwiftUISuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB476D6D2B26264F00A5BAFC /* SwiftUISuperHeroesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISuperHeroesApp.swift; sourceTree = "<group>"; };
 		AB476D6F2B26264F00A5BAFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		AB476D852B26276500A5BAFC /* Poderes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poderes.swift; sourceTree = "<group>"; };
 		AB476D872B26277D00A5BAFC /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
 		AB476D892B26279600A5BAFC /* SuperHeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesViewModel.swift; sourceTree = "<group>"; };
+		AB476D8B2B27797200A5BAFC /* SuperHeroeCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeCoverView.swift; sourceTree = "<group>"; };
+		AB476D8D2B27798600A5BAFC /* SuperHeroeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2CD6442B2B7F51008F14A6 /* Complements */ = {
+			isa = PBXGroup;
+			children = (
+				AB2CD6452B2B7F7E008F14A6 /* InfoLineView.swift */,
+			);
+			name = Complements;
+			sourceTree = "<group>";
+		};
 		AB476D612B26264F00A5BAFC = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +78,7 @@
 				AB476D6D2B26264F00A5BAFC /* SwiftUISuperHeroesApp.swift */,
 				AB476D7B2B26266700A5BAFC /* Views */,
 				AB476D7C2B26267F00A5BAFC /* Components */,
+				AB2CD6442B2B7F51008F14A6 /* Complements */,
 				AB476D7D2B26269200A5BAFC /* ViewModels */,
 				AB476D7E2B2626A800A5BAFC /* Interactors */,
 				AB476D7F2B2626B800A5BAFC /* Model */,
@@ -93,6 +108,8 @@
 		AB476D7C2B26267F00A5BAFC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AB476D8B2B27797200A5BAFC /* SuperHeroeCoverView.swift */,
+				AB476D8D2B27798600A5BAFC /* SuperHeroeDetailView.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -201,10 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB476D8C2B27797200A5BAFC /* SuperHeroeCoverView.swift in Sources */,
 				AB476D882B26277D00A5BAFC /* DataInteractor.swift in Sources */,
 				AB476D842B26274300A5BAFC /* SuperHeroesModel.swift in Sources */,
+				AB2CD6462B2B7F7E008F14A6 /* InfoLineView.swift in Sources */,
 				AB476D8A2B26279600A5BAFC /* SuperHeroesViewModel.swift in Sources */,
 				AB476D702B26264F00A5BAFC /* ContentView.swift in Sources */,
+				AB476D8E2B27798600A5BAFC /* SuperHeroeDetailView.swift in Sources */,
 				AB476D862B26276500A5BAFC /* Poderes.swift in Sources */,
 				AB476D6E2B26264F00A5BAFC /* SwiftUISuperHeroesApp.swift in Sources */,
 			);

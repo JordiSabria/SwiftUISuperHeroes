@@ -15,4 +15,9 @@ struct SuperHeroes: Codable, Identifiable, Hashable {
     let edad: Int
     let poderes: [Poderes]
     let imagen: String
+    
+}
+ 
+extension SuperHeroes{
+    static let test = SuperHeroes(id: "f0c6b58f-4d8a-4b8c-8d2a-12b4834e0a98", nombreReal: "Juan Martínez", apodo: "TeleMente", descripcion: "Después de un accidente en un laboratorio de neurociencia, Juan adquirió la capacidad de leer y manipular pensamientos.", edad: 32, poderes: [.telepatia], imagen: "telemente")
 }

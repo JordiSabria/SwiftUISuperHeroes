@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Poderes: String, Codable {
+enum Poderes: String, Codable, Identifiable {
     case comunicacionMarina = "Comunicación con Vida Marina"
     case invulnerabilidad = "Invulnerabilidad"
     case manipulacionSombras = "Manipulación de Sombras"
@@ -39,5 +39,8 @@ enum Poderes: String, Codable {
     case manipulacionTierra = "Manipulación de la Tierra"
     case teleTransportacion = "Teletransportación"
     case visionRayosX = "Visión de Rayos X"
+    var id: Self {
+            return self
+        }
 }
 
